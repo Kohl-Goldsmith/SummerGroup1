@@ -1,0 +1,61 @@
+name: destressify
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  flutter_bloc: ^8.0.0
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  equatable: ^2.0.0
+  google_sign_in: ^5.0.7
+  dio: ^4.0.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsBold.ttf
+          weight: 700
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+    - family: Raleway
+      fonts: 
+        - asset: assets/fonts/RalewayRomanSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/RalewayMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RalewayRomanExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/RalewayRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RalewayRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RalewayRomanMedium.ttf
+          weight: 500
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoRegular.ttf
+          weight: 400
